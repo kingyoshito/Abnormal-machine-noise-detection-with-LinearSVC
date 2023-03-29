@@ -4,6 +4,6 @@
 
 ■使用データ
 ・https://dcase.community/challenge2022/task-unsupervised-anomalous-sound-detection-for-machine-condition-monitoring<br>
-・上記のDcaseのデータを用いた。今回はDeveloping datasetの中にあるbearingからsection00のtestデータをtrainデータとして異常の音響データ100個、正常の音響データ100個、計200個のデータを使った学習を行った。<br>
+・上記のDcaseのデータを用いた。今回はDeveloping datasetの中にあるbearingからsection00、01のtestデータをtrainデータとして異常の音響データ200個、正常の音響データ200個、計400個のデータを使った学習を行った。<br>
 　section00には12種類の回転速度が異なるものをデータして格納されている。<br>
 ・前処理として音響信号を短時間フーリエ変換 → 絶対値を算出 → 対数スケールに変換 → 一次元の手順で実験を行った。
