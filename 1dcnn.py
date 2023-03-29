@@ -121,3 +121,5 @@ print("異常だが、正常と識別",np.where((y_pred != y_valid2) & (y_valid2
 plt.imshow(x_valid[47])
 print("異常である確率","/","正常である確率")
 print(signal_rate[47])
+
+aaaa
